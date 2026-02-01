@@ -1,5 +1,5 @@
 # niri-dots
-Dotfiles baru buat laptop utama. Ini setup [](Niri) + DankMaterial Shell yang baru aja aku coba. Skema warnanya ganti-ganti sesuai wallpaper yang digunakan. Kedepannya mungkin ada perubahan. Untuk filenya sendiri... hehe... nanti yah rek.
+Dotfiles baru buat laptop utama. Ini setup Niri + DankMaterial Shell yang baru aja aku coba. Skema warnanya ganti-ganti sesuai wallpaper yang digunakan. Kedepannya mungkin ada perubahan. Untuk filenya sendiri... hehe... nanti yah rek.
 
 ## Galeri
 <img width="1920" height="1080" alt="image" src="./screenshots/screenshot-1.png" />
