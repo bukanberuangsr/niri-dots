@@ -1,6 +1,13 @@
 # niri-dots
 Dotfiles baru buat laptop utama. Ini setup [](Niri) + DankMaterial Shell yang baru aja aku coba. Skema warnanya ganti-ganti sesuai wallpaper yang digunakan. Kedepannya mungkin ada perubahan. Untuk filenya sendiri... hehe... nanti yah rek.
 
+## Galeri
+<img width="1920" height="1080" alt="image" src="./screenshots/screenshot-1.png" />
+
+<img width="1920" height="1080" alt="image" src="./screenshots/screenshot-2.png" />
+
+<img width="1920" height="1080" alt="image" src="./screenshots/screenshot-3.png" />
+
 ## Komponen
 
 Beberapa komponen utama desktop ini itu diantaranya:
@@ -28,13 +35,6 @@ git clone https://github.com/bukanberuangsr/niri-dots.git
 # contoh aja ya, misalnya mau ganti konfigurasi Kitty:
 cp -r path/to/niri-dots/kitty ~/.config/kitty;
 ```
-
-## Galeri
-<img width="1920" height="1080" alt="image" src="./screenshots/screenshot-1.png" />
-
-<img width="1920" height="1080" alt="image" src="./screenshots/screenshot-2.png" />
-
-<img width="1920" height="1080" alt="image" src="./screenshots/screenshot-3.png" />
 
 ## Credits
 
