@@ -7,13 +7,6 @@ Beberapa komponen utama desktop ini itu diantaranya:
 1. [Niri Wayland Compositor](https://github.com/YaLTeR/niri)
 2. [Quickshell](https://quickshell.org/) (spesifiknya pake [DankMaterialShell](https://danklinux.com/))
 
-Ada juga komponen yang ga penting-penting amat kayak
-1. Kitty Terminal
-2. Fastfetch
-3. Helix
-4. Zed
-5. dan lain sebagainya (sumpah nanti aku kasih liat konfigurasinya)
-
 ## Instalasi
 
 Sebelum pake dotfile ini, install dulu beberapa dependensi berikut
@@ -37,11 +30,11 @@ cp -r path/to/niri-dots/kitty ~/.config/kitty;
 ```
 
 ## Galeri
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/71a7142c-4f0c-41b8-afe6-1d0b7d6601be" />
+<img width="1920" height="1080" alt="image" src="./screenshots/screenshot-1.png" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/880ae8b0-45f8-40a4-ade2-c16d380c3104" />
+<img width="1920" height="1080" alt="image" src="./screenshots/screenshot-2.png" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9d1e5471-26ba-445f-b269-8681a1a64ee9" />
+<img width="1920" height="1080" alt="image" src="./screenshots/screenshot-3.png" />
 
 ## Credits
 
