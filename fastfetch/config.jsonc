@@ -1,0 +1,49 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "small",
+    //"source": "/usr/share/pixmaps/fedora_whitelogo_med.png",
+    //"width": 20
+  },
+  "display": {
+    "separator": " -> ",
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "==========[General Info]==========",
+    },
+    {
+      "type": "os",
+      "key": "OS     ",
+      "format": "{name} {version-id}",
+    },
+    {
+      "type": "host",
+      "key": "Host   ",
+      "format": "{vendor} {name}",
+    },
+    {
+      "type": "kernel",
+      "key": "Kernel ",
+      "format": "{sysname} {release}",
+    },
+    {
+      "type": "custom",
+      "format": "==========[Hardware Specs]==========",
+    },
+    {
+      "type": "cpu",
+      "key": "CPU    ",
+      "format": "{name}",
+    },
+    {
+      "type": "gpu",
+      "key": "GPU    ",
+    },
+    {
+      "type": "memory",
+      "key": "Memory ",
+    },
+  ],
+}
