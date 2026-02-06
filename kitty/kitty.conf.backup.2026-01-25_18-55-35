@@ -1,0 +1,16 @@
+# Display
+font_size 12
+font_family JetBrainsMono Nerd Font Mono
+bold_font auto
+italic_font auto
+bold_italic_font auto
+disable_ligature never
+
+tab_bar_style powerline
+tab_bar_edge top
+enable_audio_bell true
+
+background_opacity 0.65
+background #151d2b
+foreground #d3dae3
+background_blur 1
