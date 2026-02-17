@@ -4,11 +4,18 @@ Ini setup Niri + Dank Material Shell yang baru aja aku coba.
 Skema warna sistem berubah sesuai wallpaper yang digunakan menggunakan matugen.
 
 ## Galeri
-<img width="1920" height="1080" alt="image" src="./screenshots/screenshot-1.png" />
 
-<img width="1920" height="1080" alt="image" src="./screenshots/screenshot-2.png" />
+<!--<img width="1920" height="1080" alt="image" src="./screenshots/screenshot-1.png" />-->
 
-<img width="1920" height="1080" alt="image" src="./screenshots/screenshot-3.png" />
+<!--<img width="1920" height="1080" alt="image" src="./screenshots/screenshot-2.png" />-->
+
+<!--<img width="1920" height="1080" alt="image" src="./screenshots/screenshot-3.png" />-->
+
+<img width="1920" height="1080" alt="image" src="./screenshots/screenshot-4.png" />
+
+<img width="1920" height="1080" alt="image" src="./screenshots/screenshot-5.png" />
+
+<img width="1920" height="1080" alt="image" src="./screenshots/screenshot-6.png" />
 
 ## Instalasi
 
