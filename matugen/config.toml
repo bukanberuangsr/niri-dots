@@ -1,0 +1,14 @@
+[config]
+
+[templates.zed]
+input_path = '~/.config/matugen/templates/zed-colors.json'
+output_path = '~/.config/zed/themes/matugen.json'
+
+[templates.btop]
+input_path = '~/.config/matugen/templates/btop-matugen.theme'
+output_path = '~/.config/btop/themes/matugen.theme'
+
+# TODO: Benerin template helix
+# [template.helix]
+# input_path = '~/.config/matugen/templates/helix-matugen.toml'
+# output_path = '~/.config/helix/themes/matugen.toml'
