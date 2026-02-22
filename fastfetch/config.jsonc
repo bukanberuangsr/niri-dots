@@ -1,49 +1,76 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
   "logo": {
-    "type": "small",
-    //"source": "/usr/share/pixmaps/fedora_whitelogo_med.png",
-    //"width": 20
+    "type": "auto",
+    "source": "~/Pictures/kinky_mam.jpg",
+    "width": 23
   },
   "display": {
     "separator": " -> ",
+    "constants": [
+      "─────────────────",
+      "─────",
+      "────"
+    ]
   },
   "modules": [
     {
       "type": "custom",
-      "format": "==========[General Info]==========",
+      "format": "┌{$1}{$2}[ General Info ]{$2}{$1}┐"
     },
     {
       "type": "os",
-      "key": "OS     ",
-      "format": "{name} {version-id}",
+      "key": "├ OS     ",
+      "format": "{name} {version-id}                                 ┤"
     },
     {
       "type": "host",
-      "key": "Host   ",
-      "format": "{vendor} {name}",
+      "key": "├ Host   ",
+      "format": "{vendor} {name}                         ┤"
     },
     {
       "type": "kernel",
-      "key": "Kernel ",
-      "format": "{sysname} {release}",
+      "key": "├ Kernel ",
+      "format": "{sysname} {release}                    ┤"
+    },
+    {
+      "type": "shell",
+      "key": "├ Shell  ",
+      "format": "{process-name} {version}                                         ┤"
+    },
+    {
+      "type": "wm",
+      "key": "├ WM     ",
+      "format": "{process-name}                                            ┤"
     },
     {
       "type": "custom",
-      "format": "==========[Hardware Specs]==========",
+      "format": "├{$1}{$3}[ Hardware Specs ]{$3}{$1}┤"
     },
     {
       "type": "cpu",
-      "key": "CPU    ",
-      "format": "{name}",
+      "key": "├ CPU    ",
+      "format": "{name}            ┤"
     },
     {
       "type": "gpu",
-      "key": "GPU    ",
+      "key": "├ GPU    ",
+      "format": "{name}                  ┤",
+      "detectionMethod": "opengl"
     },
     {
       "type": "memory",
-      "key": "Memory ",
+      "key": "├ Memory ",
+      "format": "{used} / {total}                            ┤"
     },
-  ],
+    {
+      "type": "disk",
+      "key": "├ Disk   ",
+      "format": "{size-used} / {size-total}                         ┤"
+    },
+    {
+      "type": "custom",
+      "format": "└{$1}──────────────────────────{$1}┘"
+    }
+  ]
 }
