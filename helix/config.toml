@@ -1,0 +1,17 @@
+theme = "base16_transparent"
+
+[editor]
+middle-click-paste = true
+auto-completion = true
+auto-format = true
+true-color = true
+bufferline = "always"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.lsp]
+enable = true
+display-messages = true
